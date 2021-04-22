@@ -1,0 +1,50 @@
+
+            h1 {
+                /* border: 1px solid green; */
+                text-align: center;
+                width: 80%;
+                margin: 30px auto;
+            }
+            nav {
+                /*border: 1px dashed green;*/ 
+                display: block;
+                text-align: center;
+                font-size: 14pt;
+            }
+            nav ul {
+                list-style-type: none;
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: space-around;
+            }
+
+            nav a:link {
+                color: #9a9a9c;
+                text-decoration: none;
+            }
+            nav a:hover {
+                color: #9a9a9a
+            }
+
+            main {
+                /*border: 1px solid red;*/
+                display: flex;
+                flex-direction: column;
+                margin: 0 auto;
+                width: 80%;
+            }
+
+            main div {
+                height: 30vh;
+                line-height: 30vh;
+                border-radius: 30px;
+            }
+
+            .header {
+                border: 1px dashed orangered;
+                color: #ffce70;
+                font-size: 30pt;
+                font-weight: bolder;
+                text-align: center;
+                padding: 1em 0;
+            }
