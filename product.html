@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+
+<html lang="en"> 
+
+    <head>
+
+        <title>Product</title>
+        <meta charset="utf-8">
+        <meta name="description" content="Simply Savory, a food blog that creates recipes made with The Pepper Plant Original California Style Hot Pepper Sauce and Seasoning and where to purchase it.">
+        <link rel="stylesheet" href="css/common.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Sacramento&display=swap" rel="stylesheet">
+        
+        <style>
+            
+            .title { /*border: 1px dashed orangered;*/
+                color: #ffce70;
+                font-size: 30pt;
+                font-weight: bolder;
+                text-align: center;
+                padding: 1em 0;
+            }
+
+            main { /*border: 1px solid green;*/ 
+                display: grid;
+                grid-template-rows: auto;
+                grid-template-columns: 1fr 1fr;
+                column-gap: 10px;
+
+                width: 80%;
+                margin: 0 auto;
+            }
+            main > * { /*border: 1px dashed red;*/ 
+                margin: 5px;
+                padding: 5px;
+            }
+            
+            .sauce { /*border: 1px dashed blue;*/
+                text-align: center;
+                grid-row: 1 / 2;
+                grid-column: 1 / 2;  
+            }
+                        
+            .PP {
+                width: 75%;
+                margin: 0 auto;
+            }
+            h3 {
+                font-size: 18pt;
+                font-weight: 200;
+            }
+            h4 {
+                font-size: 14pt;
+                font-weight: 100;
+            }
+            .sauce img {
+                width: 85%;
+            }
+            video {
+                width: 100%;
+                margin-top: 50px;
+                margin-bottom: 80px;
+            }
+            .purchase { /*border: 1px dashed green;*/
+                grid-row: 1 / 2;
+                grid-column: 2 / 3;
+            }
+            .outside li { /*I want font-weight heavier*/
+                color: #ffce70;
+                font-weight: 900;
+                list-style-type: none;
+            }
+            .outside li a:hover {
+                color: #ffce70;
+                font-size: 16pt;
+                list-style-type: none;
+            }
+            .outside li a:link {
+                text-decoration: none;
+            }
+            table {
+                border: 2px solid rgba(0, 0, 0, 0.555);
+                margin: 5px;
+                padding: 10px;
+                border-collapse:separate;
+                border-spacing: 15px 0px;
+                color: rgb(75, 74, 74);
+                font-size: 8pt;  
+            }
+            th {
+                border-bottom: 3px solid;
+            }   
+            td {
+                border-bottom: 1px solid;
+            }
+            td:first-of-type {
+                width: 70px;
+            }
+            td:nth-of-type(even) {
+                text-align: right;
+                margin-right: 50px;
+            }
+            
+            .table1 { /*border: 1px dashed orange;*/
+                grid-row: 3 / 4;
+                grid-column: 1 / 2;
+                width: auto;
+                margin: 25px;
+            }
+            .table2 { /*border: 1px dashed green;*/
+                grid-row: 3 / 4;
+                grid-column: 2 / 3;
+                width: auto;
+                margin: 25px;
+            }
+            caption {
+                font-size: 12pt;
+            }  
+            
+        </style>
+        
+    </head>
+
+    <body>         
+
+        <header>
+
+            <h1>Simply Savory</h1>
+
+        </header>
+
+        <nav>
+
+            <ul>
+                <li> <a href="index.html">Home</a></li> 
+                <li><a href="recipes.html">Recipes</a></li> 
+                <li><a href="product.html">Product</a></li>
+
+            </ul>
+
+        </nav>
+
+        <div class="title">The Pepper Plant</div>
+
+        <main>
+            
+            <div class="sauce"> 
+                
+                <img src="images/PP2.JPG" alt="The Pepper Plant Original California Style Hot Pepper Sauce and Seasoning">
+                
+                <h3 class="PP">
+                The Pepper Plant Original California Style Hot Pepper Sauce <br>
+                & <br>
+                The Pepper Plant Seasoning
+                </h3>
+            </div>
+
+
+            <div class="purchase">
+                
+                <video 
+                    controls="controls"
+                    poster="./images/PPposter.jpg" 
+                    src="./video.mp4" type="video/mp4">
+                </video>
+
+                <h3>You can purchase The Hot Pepper Plant online</h3>
+                <h4> If you would like to try The Pepper Plant Sauce, a great starter package is the California 2-Pack. There are other packs to pick from. Go check out their website!</h4>
+                <ul class="outside">   
+                    <li><a href="https://lovepepperplant.com/">
+                        The Pepper Plant- one heck of a tasty sauce!</a>
+                    </li>
+                    <li><a href="https://www.amazon.com/s?k=the+pepper+plant+hot+sauce">You can also find it on Amazon.</a>
+                    </li>
+                </ul>
+            </div>
+
+            <table class="table1">
+            <caption>Original California Style Hot Pepper Sauce</caption>    
+                <tr>
+                    <td 
+                        rowspan="7">Nutrition Facts<br>
+                        60 servings <br>
+                        per container <br>
+                        Serving size <br>
+                        1 tsp (5g) <br>
+                        Calories <br>
+                        per serving 0
+                    </td>
+                    <th>Amount/serving</th>
+                    <th>% DV</th>
+                    <th>Amount/serving</th>
+                    <th>% DV</th>
+                </tr>
+    
+                <tr>
+                    <td>Total Fat 0g</td>
+                    <td>0%</td>
+                    <td>Total Carb. 0g</td>
+                    <td>0%</td>
+                </tr>
+                
+                <tr>
+                    <td>Sat. Fat 0g</td>
+                    <td>0%</td>
+                    <td>Fiber 0g</td>
+                    <td>0%</td>
+                </tr>
+    
+                <tr>
+                    <td>Trans Fat 0g</td>
+                    <td></td>
+                    <td>Total Sugar 0g</td>
+                    <td></td>
+                </tr>
+    
+                <tr>
+                    <td>Cholesterol Omg</td>
+                    <td>0%</td>
+                    <td>Incl. Og Added Sugars</td>
+                    <td>0%</td>
+                </tr>
+    
+                <tr>
+                    <td>Sodium 150mg</td>
+                    <td>7%</td>
+                    <td>Protein 0g</td>
+                    <td></td>
+                </tr>
+    
+                <tr>
+                    <td>Vitamin D 0%</td>
+                    <td>Calcium 0%</td>
+                    <td>Iron 0%</td>
+                    <td>Potassium 0%</td>
+                </tr>
+    
+            </table>
+
+            <table class="table2">
+            <caption class="style">Seasoning</caption>    
+                <tr>
+                    <td 
+                        rowspan="7">Nutrition Facts <br>
+                        245 servings <br>
+                        per container <br>
+                        Serving size <br>
+                        1/4 tsp (1.5g) <br>
+                        Calories <br>
+                        per serving 5
+                    </td>
+                    <th>Amount/serving</th>
+                    <th>% DV</th>
+                    <th>Amount/serving</th>
+                    <th>% DV</th>
+                </tr>
+    
+                <tr>
+                    <td>Total Fat 0g</td>
+                    <td>0%</td>
+                    <td>Total Carb. 0g</td>
+                    <td>0%</td>
+                </tr>
+                
+                <tr>
+                    <td>Sat. Fat 0g</td>
+                    <td>0%</td>
+                    <td>Fiber 0g</td>
+                    <td>0%</td>
+                </tr>
+    
+                <tr>
+                    <td>Trans Fat 0g</td>
+                    <td></td>
+                    <td>Total Sugar 0g</td>
+                    <td></td>
+                </tr>
+    
+                <tr>
+                    <td>Cholesterol Omg</td>
+                    <td>0%</td>
+                    <td>Incl. Og Added Sugars</td>
+                    <td>0%</td>
+                </tr>
+    
+                <tr>
+                    <td>Sodium 260mg</td>
+                    <td>11%</td>
+                    <td>Protein 0g</td>
+                    <td></td>
+                </tr>
+    
+                <tr>
+                    <td>Vitamin D 0%</td>
+                    <td>Calcium 0%</td>
+                    <td>Iron 0%</td>
+                    <td>Potassium 0%</td>
+                </tr>
+    
+            </table>
+
+
+
+        </main>
+
+        <div class="gallery">
+
+            <a href="Chilaquiles.html"> 
+                <img src="images/chilaquiles1.JPG" alt="Breakfast Chilaquiles"> <span>Leftover Chilaquiles</span>
+            </a> 
+            <a href="EggSandwich.html"> 
+                <img src="images/egg1.JPG" alt="California Breakfast Egg Sandwich"> <span>California Breakfast Egg Sandwich</span>
+            </a>
+            <a href="Carnitas.html"> 
+                <img src="images/carnitas3.JPG" alt="Carnitas"> <span>Tacos de Carnitas</span>
+            </a>
+            <a href="ChickenSalad.html"> 
+                <img src="images/tostada3.JPG" alt="Chicken Salad Tostadas"> <span>Chicken Tostadas</span>
+            </a>
+            <a href="Ribs.html"> 
+                <img src="images/ribs1.JPG" alt="Savory Oven Baked Ribs"> <span>Baked Ribs</span>
+            </a>
+            <a href="BeerCanChicken.html"> 
+                <img src="images/beer1.JPG" alt="Beer Can Lime Chicken "> <span>Beer Can Chicken</span>
+            </a>
+
+        </div>
+        
+        <footer>
+            <small><i>Copyright &copy; 2021 <span class="ss">Simply Savory</span></i>  <a href="mailto:admin@simplysavory.com">Email: admin@simplysavory.com</a></small>
+        </footer>
+    
+    </body>
+
+</html>

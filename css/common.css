@@ -1,0 +1,95 @@
+* { box-sizing: border-box ;}
+
+* {
+    background-color: #ffffff;
+    color: #4b4949;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {/*border: 1px dashed red;*/
+    text-align: center;
+}
+h1 {/*border: 1px blue dashed;*/ 
+    color: #a74800;
+    opacity: 0.6;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.5em;
+    text-align: center;
+}
+
+nav { /*border: 1px dashed green;*/
+    display: block;
+    text-align: center;
+    font-size: 14pt;
+    width: 85%;
+    margin: 0 auto;
+}
+nav ul { /* border: 1px solid red; */
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 20px 0px; /* removed left padding as browser auto-indents */
+}
+
+nav a {
+    text-decoration: none;
+}
+nav a:link {
+    opacity: 0.7;
+}
+nav a:hover {
+    color: #9a9a9a
+}
+
+footer {/*border: 1px dashed olive;*/
+    text-align: center; 
+}
+
+img {
+    width: 100%;
+    border-radius: 3px;
+} 
+
+.gallery {/*border: 1px dashed orange;*/ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.gallery a {
+    position: relative;
+}
+.gallery a img {
+    margin: 5px 10px;
+    width: auto;
+    height: 170px;
+    padding: 0px;
+}
+.gallery a img:hover{
+    border: 2px solid #ffce70;
+}
+
+.gallery a span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-size: 24pt;
+    font-weight: lighter;
+    color:rgba(255,255,255,0.0);
+    background-color:rgba(255,0,0,0.0);/*background color and opacity together*/
+}
+footer a:link {
+    text-decoration: none;
+} 
+footer a:hover {
+    color: #9a9a9a;
+    font-size: 12pt;
+}
+   
+            

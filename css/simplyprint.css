@@ -1,0 +1,19 @@
+header, .header, nav, .jump, p, img, h4, form {
+    display: none;
+}
+.recipe1 > div > h3 {
+    display: none;
+}
+#the-recipe {
+    font-size: 12pt;
+}
+main {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+}
+.recipe1 {
+    width: 100%;
+}
+
+
+

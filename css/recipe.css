@@ -1,0 +1,131 @@
+
+/*main {border: 1px solid blue;
+}*/      
+
+.header {
+    color: #ffce70;
+    font-size: 30pt;
+    font-weight: bolder;
+    text-align: center;
+    padding: 1em 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24pt;
+    padding: 20px 0px;
+}
+
+.jump {
+    /* border: 2px solid red; */
+    text-align: center;
+    margin: 10px auto;
+    width: 10em;
+    height: 2em;
+    line-height: 2em;/*helps text center vertically*/
+}
+
+.jump a {
+    display: block;
+    color: #9a9a9a;
+    height: 2em;
+    border-radius: 5px;
+}
+
+.jump a:link {
+    text-decoration: none;
+}
+
+.jump a:hover {
+    background-color: #a74800Af;/*rgba(193, 103, 6, 0.584)*/
+    color: white;    
+}
+
+/*
+h2:hover {
+    border: 1px solid red;
+}*/
+
+h3, h4 {
+    text-align: center;
+}
+
+.love {
+    color: #a40008;
+    font-family: 'Sacramento', cursive;
+    font-size: 22pt;
+}
+
+.recipe1 {
+    /* border: 1px dashed blue; */
+    margin: 10px auto;
+    width: 50%;
+}
+/*
+.peach, .peach * {
+        background-color: #ffe2cc;
+}
+*/
+.peach { border: 2px solid #7a7a7a; 
+        padding: 0em 1em 1em 1em;
+        margin-top: 20px;
+}
+.peach > h2 {
+        border-bottom: 10px solid #ffdfa4;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+}
+.peach h3 {
+        text-align: left;
+} 
+form {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 1em; 
+    gap: 1em;
+    /* min-width: 20em; */
+    width: 100%;
+    padding: 2em;
+    margin: auto;
+    background-color: #eaeaea;
+    }
+/* Allows form fields to grow smaller to avoid overflowing shrinking parent  */
+form * {
+    min-width: 80px;
+}
+
+label {
+    float: left;
+    clear: left;
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+    background-color: #eaeaea;
+    color: #7a7a7a;
+    font-size: 10pt;
+    }
+input {
+        display: block;
+        margin-top: 10px;
+        padding: 0.50em;
+        border: transparent;
+    }
+textarea {
+        display: block;
+        margin-top: 10px;
+        border: transparent;
+        max-width: 100%;
+        resize: vertical;
+    }
+input[type="submit"] {
+        grid-column: 1 / 3;
+        width: 10em;
+        margin: 5px auto;
+    }
+main {
+    margin-bottom: 30px;
+    padding: 0 0 50px 0;
+}
+
+    

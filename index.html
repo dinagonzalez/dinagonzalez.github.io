@@ -4,37 +4,118 @@
 
     <head>
 
-        <title>My Page Title</title>
+        <title>Simply Savory</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="common.css">
-        
+        <meta name="description" content="Simply Savory, a food blog that creates recipes made with The Pepper Plant Original California Style Hot Sauce and Seasoning.">
+        <link rel="stylesheet" href="css/common.css">
+        <!--
+        <link rel="stylesheet" href="css/recipe.css">
+        -->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Sacramento&display=swap" rel="stylesheet">
         <style>
+
+            main > * { /* border: 1px dashed orangered; */
+                /*margin: 5px 5px 10px 5px;*/
+                padding: 10px;
+            }
+
+            main { /* border: 1px dashed purple; */
+                display: grid;
+                grid-template-rows: auto;
+                grid-template-columns: 1fr 25vw;
+                column-gap: 30px;
+                /* margin: 1px 1px 0 1px; */
+                width: 80%;
+                margin: 30px auto;
+            }            
+            .content {/*border: 2px solid orange;*/
+                grid-row: 1 / 2;
+                grid-column: 1 / 2;
+            }
+            .bio {/*border: 1px dashed blue;*/
+                grid-row: 1 / 2;
+                grid-column: 2 / 3; 
+                max-width: 100%;
+            }
+            
         </style>
         
+        <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+
     </head>
 
-    <body>         
+    <body> 
 
+        <!-- This is an HTML comment -->
+        
         <header>
 
-            <h1>Test Site</h1>
+            <h1>Simply Savory</h1>
 
         </header>
 
         <nav>
+
             <ul>
                 <li> <a href="index.html">Home</a></li> 
-                <li><a href="page2.html">Page 2</a></li> 
-                <li><a href="page3.html">Page3</a></li>
+                <li><a href="recipes.html">Recipes</a></li> 
+                <li><a href="product.html">Product</a></li>
 
             </ul>
+
         </nav>
 
         <main>
-            <div class="header">
-                A Gigantic Placeholder
+            <div class="content">
+                <a href="product.html">
+                    <img src="images/PP4.JPG" alt="The Pepper Plant Original California Style Hot Pepper Sauce and Seasoning">
+                </a>
+                <p>
+                    In the land of garlic, Gilroy California, there is a hidden treasure, The Pepper Plant Sauces and Seasoning. The Pepper Plant is locally owned by the Wagner family since 1933. The Original California Style Hot Pepper Sauce is my favorite hot sauce that compliments just about anything. If you want to turn up the flavor on your next meal, The Pepper Plant Sauces and Seasoning is a life saver. You can sprinkle it on chicken, ribs, eggs, chili beans or anything you want to add great flavor to. I have created six simple, savory dishes using The Pepper Plant California Style Hot Pepper Sauce and Seasoning. Enjoy!
+                </p>
+            </div> 
+            
+            <div class="bio">
+                
+            
+                <img src="images/self.JPG" alt="Dina Gonzalez">
+                                    
+    
+                <p>
+                        HELLO! I'm Dina, a wife, mother of three and just promoted to grandma this past February. I love, love, love to eat a good meal. But with a busy schedule between home, work and school, it is very challenging to cook. So I'm all about making simple savory meals with The Pepper Plant condiments. 
+                </p>
+            
             </div>
+        
+        </main>    
+        
+        <div class="gallery">
 
-        </main>
+            <a href="Chilaquiles.html"> 
+                <img src="images/chilaquiles1.JPG" alt="Breakfast Chilaquiles"> <span>Leftover Chilaquiles</span>
+            </a> 
+            <a href="EggSandwich.html"> 
+                <img src="images/egg1.JPG" alt="California Breakfast Egg Sandwich"> <span>California Breakfast Egg Sandwich</span>
+            </a>
+            <a href="Carnitas.html"> 
+                <img src="images/carnitas3.JPG" alt="Carnitas"> <span>Tacos de Carnitas</span>
+            </a>
+            <a href="ChickenSalad.html"> 
+                <img src="images/tostada3.JPG" alt="Chicken Salad Tostadas"> <span>Chicken Tostadas</span>
+            </a>
+            <a href="Ribs.html"> 
+                <img src="images/ribs1.JPG" alt="Savory Oven Baked Ribs"> <span>Baked Ribs</span>
+            </a>
+            <a href="BeerCanChicken.html"> 
+                <img src="images/beer1.JPG" alt="Beer Can Lime Chicken "> <span>Beer Can Chicken</span>
+            </a>
+
+        </div>
+        
+        <footer>
+            <small><i>Copyright &copy; 2021 <span class="ss">Simply Savory</span></i> <a href="mailto:admin@simplysavory.com"> Email: admin@simplysavory.com</a></small>
+        </footer>
+
     </body>
+
 </html>
