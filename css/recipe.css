@@ -41,11 +41,6 @@ h2 {
     color: white;    
 }
 
-/*
-h2:hover {
-    border: 1px solid red;
-}*/
-
 h3, h4 {
     text-align: center;
 }
@@ -61,23 +56,22 @@ h3, h4 {
     margin: 10px auto;
     width: 50%;
 }
-/*
-.peach, .peach * {
-        background-color: #ffe2cc;
-}
-*/
+
 .peach { border: 2px solid #7a7a7a; 
         padding: 0em 1em 1em 1em;
         margin-top: 20px;
 }
+
 .peach > h2 {
         border-bottom: 10px solid #ffdfa4;
         padding-bottom: 15px;
         margin-bottom: 15px;
 }
+
 .peach h3 {
         text-align: left;
 } 
+
 form {
     display: grid;
     grid-template-rows: auto;
@@ -104,25 +98,29 @@ label {
     background-color: #eaeaea;
     color: #7a7a7a;
     font-size: 10pt;
-    }
+}
+
 input {
-        display: block;
-        margin-top: 10px;
-        padding: 0.50em;
-        border: transparent;
-    }
+    display: block;
+    margin-top: 10px;
+    padding: 0.50em;
+    border: transparent;
+}
+
 textarea {
-        display: block;
-        margin-top: 10px;
-        border: transparent;
-        max-width: 100%;
-        resize: vertical;
-    }
+    display: block;
+    margin-top: 10px;
+    border: transparent;
+    max-width: 100%;
+    resize: vertical;
+}
+
 input[type="submit"] {
-        grid-column: 1 / 3;
-        width: 10em;
-        margin: 5px auto;
-    }
+    grid-column: 1 / 3;
+    width: 10em;
+    margin: 5px auto;
+}
+
 main {
     margin-bottom: 30px;
     padding: 0 0 50px 0;
